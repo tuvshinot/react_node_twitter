@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const PORT = 8081;
-const MONGODB_URI = 'clasterUserName/warbler';
+const MONGODB_URI = 'MONGOCLUSTER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!';
 const mongoose = require('mongoose');
 const errorHandler = require('./handlers/error');
 
@@ -12,7 +12,7 @@ const errorHandler = require('./handlers/error');
 const isAuth = require('./middleware/isAuth');
 const LoginRequired = require('./middleware/loggedIn');
 
-// routes
+// routes   
 const authRoutes = require('./routes/auth');
 const messageRoutes = require('./routes/message');
 const messagesRoutes = require('./routes/messagesAll');
